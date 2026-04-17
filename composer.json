@@ -1,0 +1,22 @@
+{
+    "name": "fragmentscreen/ddapi-record-nmr-cerm",
+    "description": "NMR CERM library support for the Metadata Deposition API Microservice",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Fragmentscreen\\NmrCerm\\": "src/classes/"
+        },
+        "files": ["src/register.php"]
+    },
+    "authors": [
+        {
+            "name": "Marcus Povey",
+            "email": "marcus@instruct-eric.eu"
+        },
+        {
+            "name": "Marcus Lowndes",
+            "email": "marcus.lowndes@instruct-eric.eu"
+        }
+    ],
+    "require": {}
+}

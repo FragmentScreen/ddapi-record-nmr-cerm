@@ -1,7 +1,7 @@
 <?php
 
 namespace Fragmentscreen\NmrCerm\recordHandlers;
-use FAE\datadeposition\recordHandlers\GenericNmrCermRecordSchemaHandler;
+use FAE\datadeposition\recordHandlers\GenericNmrRecordSchemaHandler;
 
 /**
  * Generic record for storing arbitrary NMR data.

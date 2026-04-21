@@ -1,11 +1,12 @@
 <?php
 
 namespace Fragmentscreen\NmrCerm\fieldHandlers;
+use FAE\datadeposition\fieldInterfaces\Sample;
 
 /**
  * Field handler for CERM NMR sample.
  */
-class JsonNmrCermSampleHandler extends JsonNmrCermHandler
+class JsonNmrCermSampleHandler extends JsonNmrCermHandler implements Sample
 {
   protected function validate($content): bool
   {

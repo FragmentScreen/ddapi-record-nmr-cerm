@@ -26,6 +26,6 @@ class JsonNmrCermHandler extends JSONHandler
 
   public function description(): string 
   {
-    return "JSON field representing NMR data from CERM";
+    return "JSON field representing generic NMR data from CERM";
   }
 }

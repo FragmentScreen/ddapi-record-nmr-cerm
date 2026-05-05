@@ -1,11 +1,12 @@
 <?php
 
 namespace Fragmentscreen\NmrCerm\fieldHandlers;
+use FAE\datadeposition\fieldInterfaces\Dataset;
 
 /**
  * Field handler for CERM NMR dataset.
  */
-class JsonNmrCermDatasetHandler extends JsonNmrCermHandler
+class JsonNmrCermDatasetHandler extends JsonNmrCermHandler implements Dataset
 {
   protected function validate($content): bool
   {
